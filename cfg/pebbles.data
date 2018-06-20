@@ -1,0 +1,4 @@
+train = /Users/alerer/particle_grain_tracking/pebbles/yolo/train.txt
+valid = /Users/alerer/particle_grain_tracking/pebbles/yolo/valid.txt
+names = /Users/alerer/particle_grain_tracking/pebbles/yolo/names.txt
+backup = backup
