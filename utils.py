@@ -379,10 +379,12 @@ def scale_bboxes(bboxes, width, height):
     return dets
       
 def file_lines(thefilepath):
+    print(thefilepath)
     count = 0
-    thefile = open(thefilepath, 'rb')
+    thefile = open(thefilepath, 'r')
     while True:
         buffer = thefile.read(8192*1024)
+        print('buffer', buffer)
         if not buffer:
             break
         count += buffer.count('\n')
